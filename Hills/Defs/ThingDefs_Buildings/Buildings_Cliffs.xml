@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+  
+<Defs>
+  
+  <!--Stone Cliff-->
+  
+  <ThingDef ParentName="BuildingBase" Name="CliffBase" Abstract="True">
+    <description>A stone cliff.</description>
+    <thingClass>Building</thingClass>
+    <category>Building</category>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <linkType>CornerFiller</linkType>
+      <linkFlags>
+        <li>MapEdge</li>
+        <li>Custom2</li>
+      </linkFlags>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+        <edgeTop>Damage/Edge</edgeTop>
+        <edgeBot>Damage/Edge</edgeBot>
+        <edgeLeft>Damage/Edge</edgeLeft>
+        <edgeRight>Damage/Edge</edgeRight>
+      </damageData>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>300</MaxHitPoints>
+      <WorkToBuild>135</WorkToBuild>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <costStuffCount>5</costStuffCount>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <blockWind>true</blockWind>
+    <castEdgeShadows>false</castEdgeShadows>
+    <fillPercent>1</fillPercent>
+    <coversFloor>false</coversFloor>
+    <placingDraggableDimensions>1</placingDraggableDimensions>
+    <tickerType>Never</tickerType>
+    <rotatable>false</rotatable>
+    <selectable>true</selectable>
+    <neverMultiSelect>true</neverMultiSelect>
+    <useStuffTerrainAffordance>false</useStuffTerrainAffordance>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <holdsRoof>false</holdsRoof>
+    <designationCategory>Structure</designationCategory>
+    <staticSunShadowHeight>0.2</staticSunShadowHeight>
+    <blockLight>false</blockLight>
+    <canOverlapZones>false</canOverlapZones>
+    <fertility>0</fertility>
+    <stuffCategories>
+      <li>Stony</li>
+    </stuffCategories>
+    <building>
+      <isInert>true</isInert>
+      <ai_chillDestination>false</ai_chillDestination>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="CliffBase" Name="Cliff_Right">
+    <defName>Stone_Cliff_Right</defName>
+    <label>stone cliff (right)</label>
+    <graphicData>
+      <texPath>Cliff_Right_Atlas</texPath>
+    </graphicData>
+    <uiIconPath>Cliff_Right_MenuIcon</uiIconPath>
+    <building>
+      <blueprintGraphicData>
+        <texPath>Hill_Right_Blueprint_Atlas</texPath>
+      </blueprintGraphicData>
+    </building>
+    <designationHotKey>Misc3</designationHotKey>
+  </ThingDef>
+  
+  <ThingDef ParentName="CliffBase" Name="Cliff_Left">
+    <defName>Stone_Cliff_Left</defName>
+    <label>stone cliff (left)</label>
+    <graphicData>
+      <texPath>Cliff_Left_Atlas</texPath>
+    </graphicData>
+    <uiIconPath>Cliff_Left_MenuIcon</uiIconPath>
+    <building>
+      <blueprintGraphicData>
+        <texPath>Hill_Left_Blueprint_Atlas</texPath>
+      </blueprintGraphicData>
+    </building>
+    <designationHotKey>Misc3</designationHotKey>
+  </ThingDef>
+  
+  <ThingDef ParentName="CliffBase" Name="Brick_Right">
+    <defName>Brick_Cliff_Right</defName>
+    <label>brick cliff (right)</label>
+    <graphicData>
+      <texPath>Cliff_Brick_Right_Atlas</texPath>
+    </graphicData>
+    <uiIconPath>Cliff_Brick_Right_MenuIcon</uiIconPath>
+    <building>
+      <blueprintGraphicData>
+        <texPath>Cliff_Right_Blueprint_Atlas</texPath>
+      </blueprintGraphicData>
+    </building>
+    <designationHotKey>Misc3</designationHotKey>
+  </ThingDef>
+  
+  <ThingDef ParentName="CliffBase" Name="Brick_Left">
+    <defName>Brick_Cliff_Left</defName>
+    <label>brick cliff (left)</label>
+    <graphicData>
+      <texPath>Cliff_Brick_Left_Atlas</texPath>
+    </graphicData>
+    <uiIconPath>Cliff_Brick_Left_MenuIcon</uiIconPath>
+    <building>
+      <blueprintGraphicData>
+        <texPath>Cliff_Left_Blueprint_Atlas</texPath>
+      </blueprintGraphicData>
+    </building>
+    <designationHotKey>Misc3</designationHotKey>
+  </ThingDef>
+  
+  <ThingDef ParentName="CliffBase" Name="Smooth_Right">
+    <defName>Smooth_Cliff_Right</defName>
+    <label>smooth cliff (right)</label>
+    <graphicData>
+      <texPath>Cliff_Smooth_Right_Atlas</texPath>
+    </graphicData>
+    <uiIconPath>Cliff_Smooth_Right_MenuIcon</uiIconPath>
+    <building>
+      <blueprintGraphicData>
+        <texPath>Cliff_Right_Blueprint_Atlas</texPath>
+      </blueprintGraphicData>
+    </building>
+    <designationHotKey>Misc3</designationHotKey>
+  </ThingDef>
+  
+  <ThingDef ParentName="CliffBase" Name="Smooth_Left">
+    <defName>Brick_Smooth_Left</defName>
+    <label>smooth cliff (left)</label>
+    <graphicData>
+      <texPath>Cliff_Smooth_Left_Atlas</texPath>
+    </graphicData>
+    <uiIconPath>Cliff_Smooth_Left_MenuIcon</uiIconPath>
+    <building>
+      <blueprintGraphicData>
+        <texPath>Cliff_Left_Blueprint_Atlas</texPath>
+      </blueprintGraphicData>
+    </building>
+    <designationHotKey>Misc3</designationHotKey>
+  </ThingDef>
+  
+  <!--Dirt Hill-->
+  
+  <ThingDef ParentName="BuildingBase" Name="HillBase" Abstract="True">
+    <description>A dirt hill.</description>
+    <thingClass>Building</thingClass>
+    <category>Building</category>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <linkType>CornerFiller</linkType>
+      <linkFlags>
+        <li>MapEdge</li>
+        <li>Custom2</li>
+      </linkFlags>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+        <edgeTop>Damage/Edge</edgeTop>
+        <edgeBot>Damage/Edge</edgeBot>
+        <edgeLeft>Damage/Edge</edgeLeft>
+        <edgeRight>Damage/Edge</edgeRight>
+      </damageData>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>300</MaxHitPoints>
+      <WorkToBuild>135</WorkToBuild>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <blockWind>true</blockWind>
+    <castEdgeShadows>false</castEdgeShadows>
+    <fillPercent>1</fillPercent>
+    <coversFloor>false</coversFloor>
+    <placingDraggableDimensions>1</placingDraggableDimensions>
+    <tickerType>Never</tickerType>
+    <rotatable>false</rotatable>
+    <selectable>true</selectable>
+    <neverMultiSelect>true</neverMultiSelect>
+    <useStuffTerrainAffordance>false</useStuffTerrainAffordance>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <holdsRoof>false</holdsRoof>
+    <designationCategory>Structure</designationCategory>
+    <staticSunShadowHeight>0.2</staticSunShadowHeight>
+    <blockLight>false</blockLight>
+    <canOverlapZones>false</canOverlapZones>
+    <fertility>0</fertility>
+    <costList>
+      <WoodLog>5</WoodLog>
+    </costList>
+    <building>
+      <isInert>true</isInert>
+      <ai_chillDestination>false</ai_chillDestination>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="HillBase" Name="Hill_Right">
+    <defName>Dirt_Hill_Right</defName>
+    <label>dirt hill (right)</label>
+    <graphicData>
+      <texPath>Hill_Right_Atlas</texPath>
+    </graphicData>
+    <uiIconPath>Hill_Right_MenuIcon</uiIconPath>
+    <building>
+      <blueprintGraphicData>
+        <texPath>Hill_Right_Blueprint_Atlas</texPath>
+      </blueprintGraphicData>
+    </building>
+    <designationHotKey>Misc3</designationHotKey>
+  </ThingDef>
+  
+  <ThingDef ParentName="HillBase" Name="Hill_Left">
+    <defName>Dirt_Hill_Left</defName>
+    <label>dirt hill (left)</label>
+    <graphicData>
+      <texPath>Hill_Left_Atlas</texPath>
+    </graphicData>
+    <uiIconPath>Hill_Left_MenuIcon</uiIconPath>
+    <building>
+      <blueprintGraphicData>
+        <texPath>Hill_Left_Blueprint_Atlas</texPath>
+      </blueprintGraphicData>
+    </building>
+    <designationHotKey>Misc3</designationHotKey>
+  </ThingDef>
+  
+  <!--Metal Cliff-->
+  
+  <ThingDef ParentName="BuildingBase" Name="MetalCliffBase" Abstract="True">
+    <description>A metal cliff.</description>
+    <thingClass>Building</thingClass>
+    <category>Building</category>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <linkType>CornerFiller</linkType>
+      <linkFlags>
+        <li>MapEdge</li>
+        <li>Custom2</li>
+      </linkFlags>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+        <edgeTop>Damage/Edge</edgeTop>
+        <edgeBot>Damage/Edge</edgeBot>
+        <edgeLeft>Damage/Edge</edgeLeft>
+        <edgeRight>Damage/Edge</edgeRight>
+      </damageData>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>300</MaxHitPoints>
+      <WorkToBuild>135</WorkToBuild>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <costStuffCount>5</costStuffCount>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <blockWind>true</blockWind>
+    <castEdgeShadows>false</castEdgeShadows>
+    <fillPercent>1</fillPercent>
+    <coversFloor>false</coversFloor>
+    <placingDraggableDimensions>1</placingDraggableDimensions>
+    <tickerType>Never</tickerType>
+    <rotatable>false</rotatable>
+    <selectable>true</selectable>
+    <neverMultiSelect>true</neverMultiSelect>
+    <useStuffTerrainAffordance>false</useStuffTerrainAffordance>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <holdsRoof>false</holdsRoof>
+    <designationCategory>Structure</designationCategory>
+    <staticSunShadowHeight>0.2</staticSunShadowHeight>
+    <blockLight>false</blockLight>
+    <canOverlapZones>false</canOverlapZones>
+    <fertility>0</fertility>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <building>
+      <isInert>true</isInert>
+      <ai_chillDestination>false</ai_chillDestination>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="MetalCliffBase" Name="MetalCliff_Right">
+    <defName>Metal_Cliff_Right</defName>
+    <label>metal cliff (right)</label>
+    <graphicData>
+      <texPath>Cliff_Plain_Right_Atlas</texPath>
+    </graphicData>
+    <uiIconPath>Cliff_Plain_Right_MenuIcon</uiIconPath>
+    <building>
+      <blueprintGraphicData>
+        <texPath>Cliff_Right_Blueprint_Atlas</texPath>
+      </blueprintGraphicData>
+    </building>
+    <designationHotKey>Misc3</designationHotKey>
+  </ThingDef>
+  
+  <ThingDef ParentName="MetalCliffBase" Name="MetalCliff_Left">
+    <defName>Metal_Cliff_Left</defName>
+    <label>metal cliff (left)</label>
+    <graphicData>
+      <texPath>Cliff_Plain_Left_Atlas</texPath>
+    </graphicData>
+    <uiIconPath>Cliff_Plain_Left_MenuIcon</uiIconPath>
+    <building>
+      <blueprintGraphicData>
+        <texPath>Cliff_Left_Blueprint_Atlas</texPath>
+      </blueprintGraphicData>
+    </building>
+    <designationHotKey>Misc3</designationHotKey>
+  </ThingDef>
+
+</Defs>
