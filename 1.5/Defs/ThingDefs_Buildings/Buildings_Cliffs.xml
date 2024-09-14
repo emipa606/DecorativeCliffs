@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <!--Category-->
   <DesignationCategoryDef>
@@ -59,7 +59,13 @@
     <fertility>0</fertility>
     <building>
       <isInert>true</isInert>
+      <wakeDormantPawnsOnConstruction>false</wakeDormantPawnsOnConstruction>
+      <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
       <ai_chillDestination>false</ai_chillDestination>
+      <ai_neverTrashThis>true</ai_neverTrashThis>
+      <claimable>false</claimable>
+      <expandHomeArea>false</expandHomeArea>
+      <canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
     </building>
   </ThingDef>
   <!--Stone Cliff-->
