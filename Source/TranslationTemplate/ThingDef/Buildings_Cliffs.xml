@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: brick cliff (bottom left) -->
+  <Brick_Cliff_Left.label>brick cliff (bottom left)</Brick_Cliff_Left.label>
+  <!-- EN: A stone cliff. -->
+  <Brick_Cliff_Left.description>A stone cliff.</Brick_Cliff_Left.description>
+  <!-- EN: brick cliff (bottom right) -->
+  <Brick_Cliff_Right.label>brick cliff (bottom right)</Brick_Cliff_Right.label>
+  <!-- EN: A stone cliff. -->
+  <Brick_Cliff_Right.description>A stone cliff.</Brick_Cliff_Right.description>
+  <!-- EN: brick cliff (top left) -->
+  <Brick_CliffTop_Left.label>brick cliff (top left)</Brick_CliffTop_Left.label>
+  <!-- EN: A stone cliff. -->
+  <Brick_CliffTop_Left.description>A stone cliff.</Brick_CliffTop_Left.description>
+  <!-- EN: brick cliff (top right) -->
+  <Brick_CliffTop_Right.label>brick cliff (top right)</Brick_CliffTop_Right.label>
+  <!-- EN: A stone cliff. -->
+  <Brick_CliffTop_Right.description>A stone cliff.</Brick_CliffTop_Right.description>
+  <!-- EN: dirt hill (bottom left) -->
+  <Dirt_Hill_Left.label>dirt hill (bottom left)</Dirt_Hill_Left.label>
+  <!-- EN: A dirt hill. -->
+  <Dirt_Hill_Left.description>A dirt hill.</Dirt_Hill_Left.description>
+  <!-- EN: dirt hill (bottom right) -->
+  <Dirt_Hill_Right.label>dirt hill (bottom right)</Dirt_Hill_Right.label>
+  <!-- EN: A dirt hill. -->
+  <Dirt_Hill_Right.description>A dirt hill.</Dirt_Hill_Right.description>
+  <!-- EN: dirt hill (top left) -->
+  <Dirt_HillTop_Left.label>dirt hill (top left)</Dirt_HillTop_Left.label>
+  <!-- EN: A dirt hill. -->
+  <Dirt_HillTop_Left.description>A dirt hill.</Dirt_HillTop_Left.description>
+  <!-- EN: dirt hill (top right) -->
+  <Dirt_HillTop_Right.label>dirt hill (top right)</Dirt_HillTop_Right.label>
+  <!-- EN: A dirt hill. -->
+  <Dirt_HillTop_Right.description>A dirt hill.</Dirt_HillTop_Right.description>
+  <!-- EN: metal cliff (bottom left) -->
+  <Metal_Cliff_Left.label>metal cliff (bottom left)</Metal_Cliff_Left.label>
+  <!-- EN: A metal cliff. -->
+  <Metal_Cliff_Left.description>A metal cliff.</Metal_Cliff_Left.description>
+  <!-- EN: metal cliff (bottom right) -->
+  <Metal_Cliff_Right.label>metal cliff (bottom right)</Metal_Cliff_Right.label>
+  <!-- EN: A metal cliff. -->
+  <Metal_Cliff_Right.description>A metal cliff.</Metal_Cliff_Right.description>
+  <!-- EN: metal cliff (top left) -->
+  <Metal_CliffTop_Left.label>metal cliff (top left)</Metal_CliffTop_Left.label>
+  <!-- EN: A metal cliff. -->
+  <Metal_CliffTop_Left.description>A metal cliff.</Metal_CliffTop_Left.description>
+  <!-- EN: metal cliff (top right) -->
+  <Metal_CliffTop_Right.label>metal cliff (top right)</Metal_CliffTop_Right.label>
+  <!-- EN: A metal cliff. -->
+  <Metal_CliffTop_Right.description>A metal cliff.</Metal_CliffTop_Right.description>
+  <!-- EN: smooth cliff (bottom left) -->
+  <Smooth_Cliff_Left.label>smooth cliff (bottom left)</Smooth_Cliff_Left.label>
+  <!-- EN: A stone cliff. -->
+  <Smooth_Cliff_Left.description>A stone cliff.</Smooth_Cliff_Left.description>
+  <!-- EN: smooth cliff (bottom right) -->
+  <Smooth_Cliff_Right.label>smooth cliff (bottom right)</Smooth_Cliff_Right.label>
+  <!-- EN: A stone cliff. -->
+  <Smooth_Cliff_Right.description>A stone cliff.</Smooth_Cliff_Right.description>
+  <!-- EN: smooth cliff (top left) -->
+  <SmoothTop_Cliff_Left.label>smooth cliff (top left)</SmoothTop_Cliff_Left.label>
+  <!-- EN: A stone cliff. -->
+  <SmoothTop_Cliff_Left.description>A stone cliff.</SmoothTop_Cliff_Left.description>
+  <!-- EN: smooth cliff (top right) -->
+  <SmoothTop_Cliff_Right.label>smooth cliff (top right)</SmoothTop_Cliff_Right.label>
+  <!-- EN: A stone cliff. -->
+  <SmoothTop_Cliff_Right.description>A stone cliff.</SmoothTop_Cliff_Right.description>
+  <!-- EN: stone cliff (bottom left) -->
+  <Stone_Cliff_Left.label>stone cliff (bottom left)</Stone_Cliff_Left.label>
+  <!-- EN: A stone cliff. -->
+  <Stone_Cliff_Left.description>A stone cliff.</Stone_Cliff_Left.description>
+  <!-- EN: stone cliff (bottom right) -->
+  <Stone_Cliff_Right.label>stone cliff (bottom right)</Stone_Cliff_Right.label>
+  <!-- EN: A stone cliff. -->
+  <Stone_Cliff_Right.description>A stone cliff.</Stone_Cliff_Right.description>
+  <!-- EN: stone cliff (top left) -->
+  <Stone_CliffTop_Left.label>stone cliff (top left)</Stone_CliffTop_Left.label>
+  <!-- EN: A stone cliff. -->
+  <Stone_CliffTop_Left.description>A stone cliff.</Stone_CliffTop_Left.description>
+  <!-- EN: stone cliff (top right) -->
+  <Stone_CliffTop_Right.label>stone cliff (top right)</Stone_CliffTop_Right.label>
+  <!-- EN: A stone cliff. -->
+  <Stone_CliffTop_Right.description>A stone cliff.</Stone_CliffTop_Right.description>
+</LanguageData>

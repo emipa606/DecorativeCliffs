@@ -1,0 +1,64 @@
+ManifestFileVersion: 0
+CRC: 3823401059
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9900e03a6ac4a6fb4424928176fccbdc
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 9900e03a6ac4a6fb4424928176fccbdc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.DecorativeCliffs/Textures/CliffTop_Smooth_Left_Atlas.png
+- Assets/Data/Mlie.DecorativeCliffs/Textures/HillTop_Left_MenuIcon.png
+- Assets/Data/Mlie.DecorativeCliffs/Textures/CliffTop_Brick_Right_Atlas.png
+- Assets/Data/Mlie.DecorativeCliffs/Textures/Cliff_Smooth_Left_MenuIcon.png
+- Assets/Data/Mlie.DecorativeCliffs/Textures/Cliff_Smooth_Right_Atlas.png
+- Assets/Data/Mlie.DecorativeCliffs/Textures/Hill_Right_Blueprint_Atlas.png
+- Assets/Data/Mlie.DecorativeCliffs/Textures/Cliff_Left_MenuIcon.png
+- Assets/Data/Mlie.DecorativeCliffs/Textures/CliffTop_Right_Blueprint_Atlas.png
+- Assets/Data/Mlie.DecorativeCliffs/Textures/Cliff_Right_MenuIcon.png
+- Assets/Data/Mlie.DecorativeCliffs/Textures/Top_MenuIcon.png
+- Assets/Data/Mlie.DecorativeCliffs/Textures/Hill_Left_MenuIcon.png
+- Assets/Data/Mlie.DecorativeCliffs/Textures/CliffTop_Brick_Right_MenuIcon.png
+- Assets/Data/Mlie.DecorativeCliffs/Textures/CliffTop_Left_Blueprint_Atlas.png
+- Assets/Data/Mlie.DecorativeCliffs/Textures/HillTop_Right_MenuIcon.png
+- Assets/Data/Mlie.DecorativeCliffs/Textures/CliffTop_Smooth_Right_MenuIcon.png
+- Assets/Data/Mlie.DecorativeCliffs/Textures/Cliff_Right_Atlas.png
+- Assets/Data/Mlie.DecorativeCliffs/Textures/Hill_Left_Blueprint_Atlas.png
+- Assets/Data/Mlie.DecorativeCliffs/Textures/Cliff_Right_Blueprint_Atlas.png
+- Assets/Data/Mlie.DecorativeCliffs/Textures/Cliff_Plain_Left_Atlas.png
+- Assets/Data/Mlie.DecorativeCliffs/Textures/HillTop_Right_Blueprint_Atlas.png
+- Assets/Data/Mlie.DecorativeCliffs/Textures/Cliff_Left_Blueprint_Atlas.png
+- Assets/Data/Mlie.DecorativeCliffs/Textures/CliffTop_Plain_Right_Atlas.png
+- Assets/Data/Mlie.DecorativeCliffs/Textures/CliffTop_Right_Atlas.png
+- Assets/Data/Mlie.DecorativeCliffs/Textures/CliffTop_Left_MenuIcon.png
+- Assets/Data/Mlie.DecorativeCliffs/Textures/HillTop_Left_Blueprint_Atlas.png
+- Assets/Data/Mlie.DecorativeCliffs/Textures/Cliff_Plain_Right_Atlas.png
+- Assets/Data/Mlie.DecorativeCliffs/Textures/Cliff_Smooth_Right_MenuIcon.png
+- Assets/Data/Mlie.DecorativeCliffs/Textures/Cliff_Left_Atlas.png
+- Assets/Data/Mlie.DecorativeCliffs/Textures/Cliff_Brick_Left_Atlas.png
+- Assets/Data/Mlie.DecorativeCliffs/Textures/CliffTop_Right_MenuIcon.png
+- Assets/Data/Mlie.DecorativeCliffs/Textures/CliffTop_Brick_Left_Atlas.png
+- Assets/Data/Mlie.DecorativeCliffs/Textures/CliffTop_Smooth_Left_MenuIcon.png
+- Assets/Data/Mlie.DecorativeCliffs/Textures/Cliff_Plain_Right_MenuIcon.png
+- Assets/Data/Mlie.DecorativeCliffs/Textures/CliffTop_Left_Atlas.png
+- Assets/Data/Mlie.DecorativeCliffs/Textures/Cliff_Smooth_Left_Atlas.png
+- Assets/Data/Mlie.DecorativeCliffs/Textures/Hill_Right_MenuIcon.png
+- Assets/Data/Mlie.DecorativeCliffs/Textures/Cliff_Brick_Left_MenuIcon.png
+- Assets/Data/Mlie.DecorativeCliffs/Textures/Cliff_Brick_Right_MenuIcon.png
+- Assets/Data/Mlie.DecorativeCliffs/Textures/CliffTop_Plain_Left_MenuIcon.png
+- Assets/Data/Mlie.DecorativeCliffs/Textures/CliffTop_Plain_Right_MenuIcon.png
+- Assets/Data/Mlie.DecorativeCliffs/Textures/CliffTop_Plain_Left_Atlas.png
+- Assets/Data/Mlie.DecorativeCliffs/Textures/CliffTop_Smooth_Right_Atlas.png
+- Assets/Data/Mlie.DecorativeCliffs/Textures/Cliff_Plain_Left_MenuIcon.png
+- Assets/Data/Mlie.DecorativeCliffs/Textures/CliffTop_Brick_Left_MenuIcon.png
+- Assets/Data/Mlie.DecorativeCliffs/Textures/Cliff_Brick_Right_Atlas.png
+Dependencies: []
